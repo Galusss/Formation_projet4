@@ -271,7 +271,6 @@ a:hover {
 .voffset-lg {
     margin-top: 80px;
 }
-
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
@@ -822,7 +821,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1038,5 +1037,47 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+}
+
+.paragraphe_primaire{
+    font-size: 22px;
+}
+
+.paragraphe_secondary{
+    font-size: 22px;
+}
+
+.paragraphhe_citation{
+    font-size: 25px;
+    font-style: italic;
+}
+
+.paragraphe_citation_auteur{
+    font-size: 18px;
+    font-style: normal;
+}
+
+@media (max-width: 992px){
+    .paragraphhe_citation{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 777px){
+    .paragraphe_primaire{
+        font-size: 16px;
+    }
+
+    .paragraphe_secondary{
+        font-size: 16px;
+    }
+
+    .paragraphhe_citation{
+        font-size: 14px;
+    }
+
+    .paragraphe_citation_auteur{
+        font-size: 10px;
     }
 }
