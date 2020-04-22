@@ -770,20 +770,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #ff8045;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #f7d3c1!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #c27956;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #dea68c!important;
     color: #FFFFFF!important;
 }
 
@@ -1040,6 +1040,15 @@ h4 {
     }
 }
 
+.button{
+    display: none; /* Le bouton qui n'était pas visible ne s'affiche plus */
+}
+
+.row{
+    margin-top: 30px;
+}
+
+/* REFONTE GRAPHIQUE */ 
 .paragraphe_primaire{
     font-size: 22px;
 }
@@ -1057,6 +1066,32 @@ h4 {
     font-size: 18px;
     font-style: normal;
 }
+
+.text-accueil-bloc3{
+    font-size: 17px;
+}
+
+.text-acceuil-bloc3-contactez{
+    font-size: 24px;
+}
+
+.text-contact-footer{
+    font-size: 15.5px;
+}
+
+.text-formulaire-contact{
+    font-size: 16px;
+}
+
+.text-contact-banniere{
+    font-size: 15.5px;
+}
+
+.text-navbar{
+    font-size: 20px;
+}
+
+
 
 @media (max-width: 992px){
     .paragraphhe_citation{
@@ -1081,3 +1116,5 @@ h4 {
         font-size: 10px;
     }
 }
+
+
