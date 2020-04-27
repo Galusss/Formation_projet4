@@ -961,7 +961,7 @@ h4 {
         box-shadow: none;
     }
     .navbar-brand img {
-        max-height: 40px;
+        max-height: 400px;
         width: auto;
     }
     .nav-invert .navbar-header {
@@ -1076,7 +1076,14 @@ h4 {
 }
 
 .text-formulaire-contact{
-    font-size: 16px;
+    font-size: 17px;
+}
+
+.infos_agence{
+    font-size: 19px;
+    display: flex;
+    margin-top: 160px;
+    margin-left: 40px;
 }
 
 .text-contact-banniere{
@@ -1087,7 +1094,22 @@ h4 {
     font-size: 20px;
 }
 
+.text-footer{
+    font-size: 20px;
+}
 
+.bloc2-text{
+    font-size: 13px;
+}
+
+.bloc4-text{
+    font-size: 14px;
+}
+
+.bloc5-text{
+    font-size: 26px;
+    color: white;
+}
 
 @media (max-width: 992px){
     .paragraphhe_citation{
@@ -1095,7 +1117,7 @@ h4 {
     }
 }
 
-@media (max-width: 777px){
+@media (max-width: 767px){
     .paragraphe_primaire{
         font-size: 16px;
     }
@@ -1109,7 +1131,23 @@ h4 {
     }
 
     .paragraphe_citation_auteur{
-        font-size: 10px;
+        font-size: 12px;
+    }
+
+    .infos_agence{
+        font-size: 19px;
+        display: flex;
+        margin-top: 30px;
+        margin-left: 0px;
+        justify-content: center;
+    }
+
+    .img-responsive{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 50%;
+        width: 50%;
     }
 }
 
