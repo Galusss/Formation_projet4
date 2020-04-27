@@ -1040,10 +1040,6 @@ h4 {
     }
 }
 
-.button{
-    display: none; /* Le bouton qui n'était pas visible ne s'affiche plus */
-}
-
 .row{
     margin-top: 30px;
 }
