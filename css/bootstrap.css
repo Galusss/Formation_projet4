@@ -2300,7 +2300,7 @@ pre code {
     .col-sm-6,
     .col-sm-7,
     .col-sm-8,
-    .col-sm-9 {
+    .col-sm-9{
         float: left
     }
     .col-sm-12 {
@@ -5229,9 +5229,11 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 .navbar-toggle .icon-bar {
     display: block;
-    width: 22px;
-    height: 2px;
-    border-radius: 1px
+    width: 45px;
+    height: 3px;
+    border-radius: 1px;
+    margin-top: 12px;
+    margin-right: 12px;
 }
 
 .navbar-toggle .icon-bar+.icon-bar {

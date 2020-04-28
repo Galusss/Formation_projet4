@@ -274,12 +274,14 @@ a:hover {
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
+    
 }
 
 .row.row-no-gutters > [class^="col-"],
 .row.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
+    margin-bottom: 30px;
 }
 
 #bloc-1-hero h1 {
@@ -650,7 +652,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: white!important;
+    color: #575757!important;
 }
 
 .container {
@@ -743,7 +745,8 @@ h4 {
 }
 
 .portfolio-row {
-    margin-bottom: 44px;
+    
+    margin-bottom: 40px;
     margin-top: 50px;
 }
 
@@ -1046,11 +1049,11 @@ h4 {
 
 /* Refonte contraste & font-size */ 
 .paragraphe_primaire{
-    font-size: 22px;
+    font-size: 24px;
 }
 
 .paragraphe_secondary{
-    font-size: 22px;
+    font-size: 24px;
 }
 
 .text-navbar{
@@ -1076,10 +1079,10 @@ h4 {
 }
 
 .infos_agence{
-    font-size: 19px;
+    font-size: 22px;
     display: flex;
-    margin-top: 160px;
-    margin-left: 40px;
+    margin-top: 150px;
+    margin-left: 50px;
 }
 
 .text-footer{
@@ -1119,11 +1122,11 @@ h4 {
 
 @media (max-width: 767px){
     .paragraphe_primaire{
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .paragraphe_secondary{
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .paragraphhe_citation{
