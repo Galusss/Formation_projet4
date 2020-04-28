@@ -1075,7 +1075,7 @@ h4 {
 }
 
 .text-contact-banniere{
-    font-size: 15.5px;
+    font-size: 19px;
 }
 
 .infos_agence{
@@ -1114,6 +1114,14 @@ h4 {
     color: white;
 }
 
+.col-sm-12 p{
+    margin-bottom: 35px;
+}
+
+.col-sm-12{
+    margin-bottom: 25px;
+}
+
 @media (max-width: 992px){
     .paragraphhe_citation{
         font-size: 20px;
@@ -1122,7 +1130,7 @@ h4 {
 
 @media (max-width: 767px){
     .paragraphe_primaire{
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .paragraphe_secondary{
@@ -1145,12 +1153,53 @@ h4 {
         justify-content: center;
     }
 
+    .bloc5-text{
+        font-size: 22px;
+    }
+
+    .col-sm-12 h2{
+        font-size: 18px;
+    }
+
+    .col-sm-12 p{
+        font-size: 14px;
+    }
+
+    .text-footer{
+    font-size: 14px;
+    }
+
+    .flex-social-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .flex-social-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1em
+    }
+
     .img-responsive{
         display: block;
         margin-left: auto;
         margin-right: auto;
         height: 50%;
         width: 50%;
+    }
+}
+
+@media (max-width: 530px){
+    .logo-img{
+        width: 171px;
+        height: 32px
+    }
+    .navbar-toggle .icon-bar {
+        margin-top: 0px;
     }
 }
 
