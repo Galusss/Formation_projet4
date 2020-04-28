@@ -650,7 +650,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: white!important;
 }
 
 .container {
@@ -1044,13 +1044,17 @@ h4 {
     margin-top: 30px;
 }
 
-/* REFONTE GRAPHIQUE */ 
+/* Refonte contraste & font-size */ 
 .paragraphe_primaire{
     font-size: 22px;
 }
 
 .paragraphe_secondary{
     font-size: 22px;
+}
+
+.text-navbar{
+    font-size: 20px;
 }
 
 .paragraphhe_citation{
@@ -1063,20 +1067,12 @@ h4 {
     font-style: normal;
 }
 
-.text-accueil-bloc3{
-    font-size: 17px;
-}
-
-.text-acceuil-bloc3-contactez{
-    font-size: 24px;
-}
-
-.text-contact-footer{
-    font-size: 15.5px;
-}
-
 .text-formulaire-contact{
     font-size: 17px;
+}
+
+.text-contact-banniere{
+    font-size: 15.5px;
 }
 
 .infos_agence{
@@ -1086,20 +1082,24 @@ h4 {
     margin-left: 40px;
 }
 
-.text-contact-banniere{
-    font-size: 15.5px;
-}
-
-.text-navbar{
-    font-size: 20px;
-}
-
 .text-footer{
     font-size: 20px;
 }
 
+.text-contact-footer{
+    font-size: 15.5px;
+}
+
 .bloc2-text{
     font-size: 13px;
+}
+
+.text-accueil-bloc3{
+    font-size: 17px;
+}
+
+.text-acceuil-bloc3-contactez{
+    font-size: 24px;
 }
 
 .bloc4-text{
