@@ -221,5 +221,8 @@ focusMethod = function getFocus() {
     document.getElementById("input_504").focus();
 }
 focusMethod = function getFocus() {
+    document.getElementById("message").focus();
+}
+focusMethod = function getFocus() {
     document.getElementsByClassName("btn-form").focus();
 }
