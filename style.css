@@ -1047,7 +1047,7 @@ h4 {
     margin-top: 30px;
 }
 
-/* Refonte contraste & font-size */ 
+/* contraste & font-size */ 
 .paragraphe_primaire{
     font-size: 24px;
 }
@@ -1122,6 +1122,7 @@ h4 {
     margin-bottom: 25px;
 }
 
+/* responsive contraste & font-size */
 @media (max-width: 992px){
     .paragraphhe_citation{
         font-size: 20px;
