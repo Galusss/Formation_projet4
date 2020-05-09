@@ -465,6 +465,10 @@ button {
     outline: none!important;
 }
 
+.bloc-button{
+    color: transparent;
+}
+
 .btn-rd {
     border-radius: 40px;
 }
@@ -850,13 +854,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -874,10 +878,6 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -886,8 +886,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
@@ -1203,3 +1201,49 @@ h4 {
         margin-top: 0px;
     }
 }
+
+/* Focus */
+.focus_a_0:focus{
+    border-radius: 10px;
+    background-color: #eb9e7a !important;
+}
+
+.focus_a_1:focus{
+    border-radius: 10px;
+    background-color: #97380c !important;
+    color: #fff !important;
+}
+
+.focus_a_2:focus{
+    border-radius: 20px;
+    background-color: #97380c !important;
+    color: #fff !important;
+    padding: 0.5em;
+}
+
+.focus_a_3:focus{
+    border-radius: 10px;
+    background-color: #97380c !important;
+    color: #fff !important;
+    padding: 2em;
+}
+
+.focus_form_0:focus{
+        background-color: #eb9e7a !important;
+}
+
+.focus_img:focus {
+    padding: 1em;
+    border-radius: 10px;
+    background-color: #eb9e7a !important;
+    color: #fff !important;
+}
+
+.focus_btn-scroll:focus{
+    padding: 1em;
+    border-radius: 10px;
+    background-color: #eb9e7a !important;
+    color: #fff !important;
+}
+
+
