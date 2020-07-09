@@ -1,4 +1,4 @@
-## Formation_projet4
+## OC_project4
 ### Formation Développeur Web OpenclassRooms (P4)
 
 #### __Exercice :__ Optimisez un site web existant.
